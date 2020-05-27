@@ -11,6 +11,7 @@
         depth: 100,
         modifier: 1,
         slideShadows : true,
+        
       },
       pagination: {
         el: '.swiper-pagination',
