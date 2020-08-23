@@ -8,7 +8,7 @@
 /*Caroousel size */
 
 .carousel-item {
-    height: 100vh;
+    height: auto;
     min-height: 300px;
     background: center center scroll;
     -webkit-background-size:cover;
@@ -47,7 +47,7 @@
 .bg-light .navbar-nav .nav-link:focus, .bg-light .navbar-nav  .nav-link:hover{
   color: red;
 }
-
+.navbar-toggler{}
 
 
 /*Animated Button */
@@ -63,8 +63,10 @@
 
 }
 #showreel .btn{
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-left: 3vw;
+  margin-top: 4vw;
+  margin-bottom: 3vw; 
+  padding-left:50px;
   background-color: white;
 
 
@@ -72,12 +74,11 @@
 
 /*------About--------------*/
 #about{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 #about h2{
 text-transform: uppercase;
-margin-bottom: 20px;
-margin-top: 50px;
+margin-top: 10px;
 font-family: Helvetica;
 font-size: 60px;
 font-weight: bold;
@@ -86,7 +87,7 @@ text-align: center;
 }
 #about h3{
   text-transform: uppercase;
-margin-bottom:100px;
+margin-bottom:50px;
 margin-top: 30px;
 font-family: Helvetica;
 font-size: 40px;
@@ -95,11 +96,11 @@ letter-spacing: 10px;
 text-align: center;  
 }
 #about .row{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #about p{
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
 }
 #about .txt1{
@@ -199,8 +200,8 @@ border-color: #cc2a36;
     text-transform: uppercase;
     text-align: right;
     font-weight:bold;
-    letter-spacing: 15px;
-    font-size:45px;
+   letter-spacing: 0.9vw;
+    font-size:4vw;
 }
 #showreel .hello{
     border-color: black;
@@ -432,7 +433,7 @@ margin-bottom: 30px;
 }
 
 .project .btn{
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 
